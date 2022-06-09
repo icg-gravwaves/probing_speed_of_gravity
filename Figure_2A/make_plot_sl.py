@@ -20,9 +20,9 @@ plt.style.use(["seaborn-talk", "paper"])
 dataLIGO = np.load("figure2_dataLIGO.npz")
 dataET = np.load("figure2_dataET.npz")
 non_gr_n_values_lg = dataLIGO["non_gr_n_values"]
-outputs_lg = dataLIGO["outputs"]
+outputs_lg = dataLIGO["outputs_sl"]
 non_gr_n_values_et = dataET["non_gr_n_values"]
-outputs_et = dataET["outputs"]
+outputs_et = dataET["outputs_sl"]
 print(non_gr_n_values_et, outputs_et)
 
 # plt.rc('font', family='serif')
@@ -86,5 +86,5 @@ ax.set_ylabel(
 )
 ax.legend()
 ax.set_title(r"\textbf{Approximate exclusion capability}")
-fig.savefig("figure2a.pdf", bbox_inches="tight")
-fig.savefig("figure2a.png", bbox_inches="tight")
+fig.savefig("figure2a_sl.pdf", bbox_inches="tight")
+fig.savefig("figure2a_sl.png", bbox_inches="tight")
