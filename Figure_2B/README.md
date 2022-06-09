@@ -102,7 +102,7 @@ to
 
 Then we need a configuration file, ours can be downloaded here:
 
-https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/inference_emcee.ini
+https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_2B/inference_emcee.ini
 
 Then we need to run `pycbc_inference`. We did this using MPI according to:
 
@@ -113,10 +113,10 @@ mpiexec -n 50 pycbc_inference --config-files inference_emcee.ini --output-file r
 This produces `results_superluminal.hdf` and `results_subluminal.hdf`, which we upload to the repository here:
 
 
-https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/results_superluminal.hdf
+https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_2B/results_superluminal.hdf
 
 
-https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/results_subluminal.hdf
+https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_2B/results_subluminal.hdf
 
 Note that this is slow (takes weeks on 50 cores). The waveform generator should be made faster is using this in the future.
 
@@ -124,7 +124,7 @@ Note that this is slow (takes weeks on 50 cores). The waveform generator should 
 
 We then make the plot in a few stages. We first extract the necessary data from the HDF files. This is done by downloaded the edited executable:
 
-https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/pycbc_inference_plot_posterior
+https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_2B/pycbc_inference_plot_posterior
 
 and then running
 
@@ -138,13 +138,13 @@ mv figure2_data.npz figure2_data_subluminal.npz
 ```
 to generate two .npz files. These files are also available here:
 
-https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/figure2_data_subluminal.npz
+https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_2B/figure2_data_subluminal.npz
 
-https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/figure2_data_superluminal.npz
+https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_2B/figure2_data_superluminal.npz
 
 Finally the plot is generated from this be running the script
 
-https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/make_plot.py
+https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_2B/make_plot.py
 
 ## Step 3: Also make the video
 
