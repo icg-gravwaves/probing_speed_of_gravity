@@ -63,9 +63,9 @@ Please see here:
 
 for details of this figure.
 
-## Figure 3
+## Figure 3 (and Figure 5 in appendix)
 
-Figure 3 uses a similar script to Figure 2A but must examine a lot more points. The scripts for generating the LIGO and LISA data respectively are here:
+Figure 3 (and Figure 5) use a similar script to Figure 2A but must examine a lot more points. The scripts for generating the LIGO and LISA data respectively are here:
 
 <https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_3/make_data_ligo.py>
 
@@ -88,11 +88,11 @@ The outputs can then be combined using `cat` to produce `LIGO_output.txt` and `L
 
 <https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_3/LISA_output.txt>
 
-Figure 3 is then made from these input files by running:
+Figure 3 (and Figure 5) are then made from these input files by running:
 
 <https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_3/make_plots.py>
 
-To generate the same plot using superluminal data, you can use:
+To generate the same plots using superluminal data, you can use:
 
 <https://icg-gravwaves.github.io/probing_speed_of_gravity/Figure_3/make_plots_sl.py>
 
