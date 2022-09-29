@@ -47,7 +47,7 @@ ctours = ax1.contour(fstar_valuesZ, alpha_valuesZ, result, levels=[1E-15, 1E-12,
 ax1.semilogx()
 #cb = fig.colorbar(sc_plot, ax=ax)
 ax1.set_ylabel(r'$\sigma$')
-ax1.set_xlabel(r'$f_{\star}$')
+ax1.set_xlabel(r'$f_{\star}$ (Hz)')
 ax1.set_xticks([1E-5, 1E-3, 1E-1, 10])
 #cb.set_label('$\delta$ $c_{GW}$ exclusion')
 
@@ -86,7 +86,7 @@ ctours = ax3.contour(fstar_valuesZ, alpha_valuesZ, result, levels=[1E-15, 1E-12,
 
 ax3.semilogx()
 #ax3.set_ylabel(r'$\alpha$')
-ax3.set_xlabel(r'$f_{\star}$')
+ax3.set_xlabel(r'$f_{\star}$ (Hz)')
 ax3.set_xticks([1E-5, 1E-3, 1E-1, 10])
 ax3.tick_params('y', labelleft=False)
 
@@ -107,7 +107,7 @@ ctours = ax4.contour(fstar_valuesZ, alpha_valuesZ, result, levels=[1E-15, 1E-12,
 
 ax4.semilogx()
 #ax3.set_ylabel(r'$\alpha$')
-ax4.set_xlabel(r'$f_{\star}$')
+ax4.set_xlabel(r'$f_{\star}$ (Hz)')
 ax4.set_xticks([1E-5, 1E-3, 1E-1, 10])
 ax4.tick_params('y', labelleft=False)
 
@@ -141,7 +141,7 @@ result = 10**result
 ctours = ax1.contour(fstar_valuesZ, alpha_valuesZ, result, levels=[1E-15, 1E-12, 1E-9, 1E-6, 1E-3], norm=matplotlib.colors.LogNorm(vmax=1, vmin=1E-20))
 ax1.semilogx()
 ax1.set_ylabel(r'$\sigma$')
-ax1.set_xlabel(r'$f_{\star}$')
+ax1.set_xlabel(r'$f_{\star}$ (Hz)')
 ax1.set_xticks([1E-5, 1E-3, 1E-1, 10])
 
 ax2 = axes[1]
@@ -155,7 +155,7 @@ result = 10**result
 ctours = ax2.contour(fstar_valuesZ, alpha_valuesZ, result, levels=[1E-15, 1E-12, 1E-9, 1E-6, 1E-3], norm=matplotlib.colors.LogNorm(vmax=1, vmin=1E-20))
 ax2.semilogx()
 ax2.set_ylabel(r'$\sigma$')
-ax2.set_xlabel(r'$f_{\star}$')
+ax2.set_xlabel(r'$f_{\star}$ (Hz)')
 ax2.set_xticks([1E-5, 1E-3, 1E-1, 10])
 ax2.tick_params('y', labelleft=False)
 
@@ -170,7 +170,7 @@ result = 10**result
 ctours = ax3.contour(fstar_valuesZ, alpha_valuesZ, result, levels=[1E-15, 1E-12, 1E-9, 1E-6, 1E-3], norm=matplotlib.colors.LogNorm(vmax=1, vmin=1E-20))
 ax3.semilogx()
 ax3.set_ylabel(r'$\sigma$')
-ax3.set_xlabel(r'$f_{\star}$')
+ax3.set_xlabel(r'$f_{\star}$ (Hz)')
 ax3.set_xticks([1E-5, 1E-3, 1E-1, 10])
 ax3.tick_params('y', labelleft=False)
 
