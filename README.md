@@ -1,7 +1,6 @@
 # Probing the speed of gravity with LVK, LISA and joint observations - Data Release
 
-This is the data release for the paper "Probing the speed of gravity with LVK, LISA, and joint observations", which can be found
-\[ADD ARXIV LINK WHEN ON ARXIV\]. We release the data behind each of the figures and the code and configuration files that were used to produce each of them.
+This is the data release for the paper "Probing the speed of gravity with LVK, LISA, and joint observations", which [can be found here](https://arxiv.org/abs/2207.10096). We release the data behind each of the figures and the code and configuration files that were used to produce each of them.
 
 As always with the python landscape, software dependencies will change in the coming years, and this code may be incompatible with future releases of any dependency. This code was checked against the v2.0.3 PyCBC Docker image, which can be found here https://zenodo.org/record/6583784. The docker image provides a full suite of software and it should be possible to "just use this", with the changes and additions documented below.
 
